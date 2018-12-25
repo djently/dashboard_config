@@ -1,0 +1,42 @@
+{
+    "nodes": {
+        "style": {
+            "label": "General Styles",
+            "nodes": {
+                "input": {
+                    "label": "Inputs",
+                    "component": "InputConfig"
+                },
+                "tutorials": {
+                    "label": "Tutorials",
+                    "component": "TutorialsConfig"
+                },
+                "tab": {},
+                "text": {},
+                "button": {},
+                "icon": {},
+                "splitEvenlyCircle": {},
+                "statusBar": {},
+                "radioButton": {},
+                "backToTable": {},
+                "divider": {},
+                "splitItemCircle": {},
+                "stats": {},
+                "confirmationAndBlock": {},
+                "header": {},
+                "background": {},
+                "reorder": {}
+            }
+        },
+        "settings": {
+            "label": "Settings",
+            "component": "Settings"
+        },
+        "webView": {},
+        "assets": {},
+        "fonts": {},
+        "iconFonts": {},
+        "pages": {},
+        "walletConfiguration": {}
+    }
+}

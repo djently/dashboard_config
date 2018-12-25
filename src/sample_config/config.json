@@ -1,0 +1,1076 @@
+{
+    "style": {
+        "tutorials": {
+            "screens": [
+                {
+                    "xColor": "#ffffff",
+                    "statusBar": {
+                        "color": "light-content",
+                        "backgroundColor": "#000000"
+                    },
+                    "backgroundColor": null,
+                    "backgroundImage": "https://s3-eu-west-1.amazonaws.com/mycheck-api-static-content/Bullguer/home_bg%403x+(1).png",
+                    "image": "https://s3-eu-west-1.amazonaws.com/mycheck-api-static-content/Bullguer/onboarding_1%403x.png",
+                    "title": {
+                        "fontFamily": "Intro",
+                        "fontSize": 19,
+                        "color": "#FFFFFF"
+                    },
+                    "text": {
+                        "fontFamily": "Kraftstoff",
+                        "fontSize": 20,
+                        "color": "#FFFFFF"
+                    }
+                },
+                {
+                    "xColor": "#ffffff",
+                    "statusBar": {
+                        "color": "light-content",
+                        "backgroundColor": "#000000"
+                    },
+                    "backgroundColor": null,
+                    "backgroundImage": "https://s3-eu-west-1.amazonaws.com/mycheck-api-static-content/Bullguer/home_bg%403x+(1).png",
+                    "image": "https://s3-eu-west-1.amazonaws.com/mycheck-api-static-content/Bullguer/tutorial_rewards%403x.png",
+                    "title": {
+                        "fontFamily": "Intro",
+                        "fontSize": 19,
+                        "color": "#FFFFFF"
+                    },
+                    "text": {
+                        "fontFamily": "Kraftstoff",
+                        "fontSize": 20,
+                        "color": "#FFFFFF"
+                    }
+                },
+                {
+                    "xColor": "#ffffff",
+                    "statusBar": {
+                        "color": "light-content",
+                        "backgroundColor": "#000000"
+                    },
+                    "backgroundColor": null,
+                    "backgroundImage": "https://s3-eu-west-1.amazonaws.com/mycheck-api-static-content/Bullguer/home_bg%403x+(1).png",
+                    "image": "https://s3-eu-west-1.amazonaws.com/mycheck-api-static-content/Bullguer/onboarding_7%403x.png",
+                    "title": {
+                        "fontFamily": "Intro",
+                        "fontSize": 19,
+                        "color": "#FFFFFF"
+                    },
+                    "text": {
+                        "fontFamily": "Kraftstoff",
+                        "fontSize": 20,
+                        "color": "#FFFFFF"
+                    }
+                },
+                {
+                    "xColor": "#ffffff",
+                    "statusBar": {
+                        "color": "light-content",
+                        "backgroundColor": "#000000"
+                    },
+                    "backgroundColor": null,
+                    "backgroundImage": "https://s3-eu-west-1.amazonaws.com/mycheck-api-static-content/Bullguer/home_bg%403x+(1).png",
+                    "image": "https://s3-eu-west-1.amazonaws.com/mycheck-api-static-content/Bullguer/onboarding_5%403x.png",
+                    "title": {
+                        "fontFamily": "Intro",
+                        "fontSize": 19,
+                        "color": "#FFFFFF"
+                    },
+                    "text": {
+                        "fontFamily": "Kraftstoff",
+                        "fontSize": 20,
+                        "color": "#FFFFFF"
+                    }
+                }
+            ],
+            "pagination": {
+                "color": "#787878"
+            },
+            "paginationActive": {
+                "color": "#FFFFFF"
+            }
+        },
+        "input": {
+            "default": {
+                "borderColor": "#787878",
+                "borderBottomWidth": 1,
+                "borderStyle": "solid"
+            },
+            "defaultError": {
+                "borderColor": "#D0021B",
+                "borderBottomWidth": 1,
+                "borderStyle": "solid"
+            },
+            "search": {
+                "backgroundColor": "#FFFFFF",
+                "borderColor": "#202020",
+                "borderBottomWidth": 1,
+                "borderStyle": "solid"
+            },
+            "verificationCode": {
+                "borderColor": "#A89C72",
+                "borderBottomWidth": 1,
+                "borderStyle": "solid"
+            },
+            "verificationNumber": {
+                "fontFamily": "Intro",
+                "fontSize": 36,
+                "color": "#202020"
+            },
+            "verificationCodeError": {
+                "borderColor": "#D0021B",
+                "borderBottomWidth": 1,
+                "borderStyle": "solid"
+            },
+            "verificationNumberError": {
+                "fontFamily": "Intro",
+                "fontSize": 36,
+                "color": "#D0021B"
+            },
+            "phoneLogin": {
+                "backgroundColor": "#FFFFFF"
+            }
+        },
+        "tab": {
+            "active": {
+                "fontFamily": "Intro",
+                "fontSize": 12,
+                "color": "#A89C72",
+                "backgroundColor": "#A89C72",
+                "height": 6
+            },
+            "default": {
+                "fontFamily": "Intro",
+                "fontSize": 12,
+                "color": "#202020",
+                "opacity": 1
+            }
+        },
+        "text": {
+            "run1": {
+                "fontFamily": "Kraftstoff",
+                "fontSize": 18,
+                "color": "#121212"
+            },
+            "run2": {
+                "fontFamily": "Kraftstoff",
+                "fontSize": 16,
+                "color": "#787878"
+            },
+            "error": {
+                "fontFamily": "Kraftstoff",
+                "fontSize": 16,
+                "color": "#D0021B"
+            },
+            "link": {
+                "fontFamily": "Kraftstoff",
+                "fontSize": 16,
+                "color": "#A89C72"
+            },
+            "big": {
+                "fontFamily": "Intro",
+                "fontSize": 72,
+                "color": "#A89C72",
+                "paddingTop": 10
+            },
+            "myTotal": {
+                "fontFamily": "Intro",
+                "fontSize": 36,
+                "color": "#A89C72"
+            },
+            "headerTitle": {
+                "fontFamily": "Intro",
+                "fontSize": 14,
+                "color": "#202020",
+                "marginTop": 8
+            },
+            "backToTable": {
+                "fontFamily": "Kraftstoff",
+                "fontSize": 15,
+                "color": "#FFFFFF"
+            },
+            "overlayTitle": {
+                "fontFamily": "Intro",
+                "fontSize": 14,
+                "color": "#000000"
+            },
+            "skip": {
+                "fontFamily": "Kraftstoff",
+                "fontSize": 12,
+                "color": "#FFFFFF"
+            },
+            "home": {
+                "fontFamily": "Intro",
+                "fontSize": 12,
+                "color": "#FFFFFF"
+            },
+            "letsGetStarted": {
+                "fontFamily": "Kraftstoff",
+                "fontSize": 20,
+                "color": "#FFFFFF"
+            },
+            "takeTour": {
+                "fontFamily": "Intro",
+                "fontSize": 14,
+                "color": "#FFFFFF"
+            },
+            "splitNumbers": {
+                "fontFamily": "Intro",
+                "fontSize": 20,
+                "color": "#000000"
+            }
+        },
+        "button": {
+            "middleHome": {
+                "fontFamily": "Intro",
+                "fontSize": 15,
+                "color": "#FFFFFF",
+                "borderWidth": 4,
+                "borderColor": "#FFFFFF"
+            },
+            "redeem": {
+                "borderRadius": 0,
+                "borderWidth": 1,
+                "height": 28,
+                "width": 65,
+                "paddingVertical": 2
+            },
+            "redeemActive": {
+                "backgroundColor": "#FFFFFF",
+                "borderWidth": 1,
+                "height": 28,
+                "width": 65,
+                "paddingVertical": 2,
+                "alignItems": "center",
+                "justifyContent": "center"
+            },
+            "surveyInactive": {
+                "borderColor": "#A89C72",
+                "backgroundColor": null
+            },
+            "surveyActive": {
+                "backgroundColor": "#A89C72"
+            },
+            "btn1": {
+                "borderColor": null,
+                "borderRadius": 0,
+                "backgroundColor": "#000000"
+            },
+            "btn2": {
+                "borderColor": "#202020",
+                "borderRadius": 0,
+                "borderWidth": 2,
+                "backgroundColor": null
+            },
+            "btn3": {
+                "borderColor": null,
+                "borderRadius": 0,
+                "backgroundColor": "#FFFFFF"
+            },
+            "text1": {
+                "fontFamily": "Intro",
+                "fontSize": 14,
+                "color": "#FFFFFF"
+            },
+            "text2": {
+                "fontFamily": "Intro",
+                "fontSize": 14,
+                "color": "#000000"
+            },
+            "text3": {
+                "fontFamily": "Intro",
+                "fontSize": 15,
+                "color": "#FFFFFF"
+            },
+            "smallBold": {
+                "fontFamily": "Intro",
+                "fontSize": 12,
+                "color": "#000000"
+            },
+            "next": {
+                "backgroundColor": "#202020",
+                "arrowColor": "#FFFFFF"
+            },
+            "tipBox": {
+                "borderColor": "#A89C72",
+                "borderRadius": 11,
+                "backgroundColor": null
+            },
+            "tipBoxActive": {
+                "borderColor": null,
+                "borderRadius": 11,
+                "backgroundColor": "#A89C72"
+            }
+        },
+        "icon": {
+            "upgrade": {
+                "color": "#FFFFFF",
+                "fontSize": 50
+            },
+            "profile": {
+                "color": "#FFFFFF",
+                "fontSize": 35
+            },
+            "default": {
+                "color": "#A89C72",
+                "fontSize": 30
+            },
+            "back": {
+                "color": "#000000",
+                "fontSize": 30
+            },
+            "surveyStar": {
+                "color": "#A89C72",
+                "fontSize": 50
+            },
+            "surveyStarActive": {
+                "color": "#A89C72",
+                "fontSize": 50
+            },
+            "big": {
+                "color": "#FFFFFF",
+                "fontSize": 50
+            },
+            "small1": {
+                "color": "#FFFFFF",
+                "fontSize": 9
+            },
+            "small2": {
+                "color": "#787878",
+                "fontSize": 18
+            },
+            "checkoutClose": {
+                "color": "#FFFFFF",
+                "fontSize": 25
+            },
+            "dropDownArrow": {
+                "color": "#787878",
+                "fontSize": 30
+            },
+            "header": {
+                "color": "#000000",
+                "fontSize": 30
+            },
+            "stats": {
+                "color": "#FFFFFF",
+                "fontSize": 40
+            },
+            "redeem": {
+                "color": "#202020",
+                "fontSize": 26,
+                "position": "absolute",
+                "lineHeight": 24
+            },
+            "xOverlay": {
+                "color": "#000000",
+                "fontSize": 25
+            }
+        },
+        "splitEvenlyCircle": {
+            "color": "#A89C72"
+        },
+        "statusBar": {
+            "default": {
+                "color": "light-content",
+                "backgroundColor": null
+            },
+            "header": {
+                "color": "dark-content",
+                "backgroundColor": null
+            },
+            "businessPage": {
+                "color": "light-content",
+                "backgroundColor": null
+            },
+            "start": {
+                "color": "light-content",
+                "backgroundColor": null
+            },
+            "blockPage": {
+                "color": "light-content",
+                "backgroundColor": null
+            },
+            "overlay": {
+                "color": "dark-content",
+                "backgroundColor": null
+            },
+            "checkout": {
+                "color": "light-content",
+                "backgroundColor": null
+            }
+        },
+        "radioButton": {
+            "borderWidth": 2,
+            "borderColor": "#000000",
+            "borderColorError": "#D0021B",
+            "selectedColor": "#FFA38B",
+            "selectedColorError": "#D0021B"
+        },
+        "backToTable": {
+            "tab": {
+                "backgroundColor": "#A89C72"
+            },
+            "body": {
+                "backgroundColor": "#A89C72"
+            },
+            "arrow": {
+                "color": "#FFFFFF",
+                "fontSize": 30
+            }
+        },
+        "divider": {
+            "borderBottomColor": "#000000",
+            "borderBottomWidth": 1,
+            "borderStyle": "solid"
+        },
+        "splitItemCircle": {
+            "circle": {
+                "borderWidth": 2,
+                "borderColor": "#202020"
+            },
+            "activeCircle": {
+                "backgroundColor": "#202020",
+                "iconColor": "#FFFFFF"
+            }
+        },
+        "stats": {
+            "boarderColor": "#FFFFFF",
+            "backgroundColor": "#202020"
+        },
+        "confirmationAndBlock": {
+            "circle": {
+                "borderWidth": 2,
+                "borderColor": "#A89C72",
+                "borderRadius": 100,
+                "padding": 15,
+                "height": 150,
+                "width": 150
+            },
+            "icon": {
+                "fontSize": 100,
+                "color": "#000000"
+            }
+        },
+        "header": {
+            "backgroundColor": "#FFFFFF"
+        },
+        "background": {
+            "connect": {
+                "backgroundColor": "#FFFFFF",
+                "backgroundImage": null
+            },
+            "start": {
+                "backgroundColor": null,
+                "backgroundImage": null
+            },
+            "homePageVip": {
+                "backgroundColor": null,
+                "backgroundImage": null
+            },
+            "profile&business": {
+                "backgroundColor": "#FFFFFF",
+                "backgroundImage": null,
+                "secondaryColor": "#EEEEEE"
+            },
+            "dine&Block": {
+                "backgroundColor": "#FFFFFF",
+                "backgroundImage": null
+            },
+            "overlay": {
+                "backgroundColor": "#FFFFFF",
+                "backgroundImage": null
+            },
+            "rewardsHome": {
+                "backgroundColor": "#000000",
+                "backgroundImage": null
+            },
+            "checkout": {
+                "mainColor": "#000000",
+                "drawerColor": "#FFFFFF"
+            }
+        },
+        "reorder": {
+            "circle": {
+                "color": null
+            },
+            "quantityIcons": {
+                "color": null,
+                "fontSize": 0
+            }
+        }
+    },
+    "settings": {
+        "units": "KM",
+        "radius": 10000,
+        "currency": "BRL",
+        "dateFormat": "DD/MM/YYYY",
+        "timeFormat": "HH:mm",
+        "locationDefaultTab": "Nearby",
+        "pollingInterval": 5,
+        "externalBusinessId": true,
+        "countryCode": "br",
+        "appId": 1690,
+        "environment": "test",
+        "publishableKey": "pk_1234",
+        "analyticsTrackingId": "UA-118668209-1",
+        "showLoyaltyStatus": false,
+        "deleteMyAccount": "informative",
+        "translations": "https://s3-eu-west-1.amazonaws.com/cdn-storage/translations/Bullguer/confi.json"
+    },
+    "webView": {
+        "loyaltyFAQ": {
+            "url": "",
+            "headerVisible": true,
+            "headerTitle": ""
+        },
+        "contactUs": {
+            "url": "https://test.mycheckapp.com/mobileApi/getPageContent/appType/Bullguer/page/contactus/Html/true",
+            "headerVisible": true,
+            "headerTitle": "PAGES.HELP.TALK_TO_US"
+        },
+        "partners": {
+            "url": "https://",
+            "headerVisible": true,
+            "headerTitle": ""
+        },
+        "menu": {
+            "url": "http://www.bullguer.com/v2/cardapio/",
+            "headerVisible": true,
+            "headerTitle": "PAGES.MENU.HEADER"
+        },
+        "faq": {
+            "url": "https://s3-eu-west-1.amazonaws.com/cdn-storage/whitelabel_content/faq/index.html?appId=bullguer",
+            "headerVisible": true,
+            "headerTitle": "PAGES.HELP.FAQ"
+        },
+        "whatsOn": {
+            "url": "https://",
+            "headerVisible": true,
+            "headerTitle": ""
+        },
+        "preferenceCenter": {
+            "url": "https://",
+            "headerVisible": true,
+            "headerTitle": ""
+        },
+        "ourStory": {
+            "url": "http://www.bullguer.com/v2/sobre/",
+            "headerVisible": true,
+            "headerTitle": "PAGES.HELP.ABOUT_US"
+        },
+        "pickup": {
+            "url": "https://test.mycheckapp.com/takeaway/?appId=4825b0508deb553e1dfa49d8a08cc1fc&isNative=true",
+            "headerVisible": false,
+            "headerTitle": "PAGES.PICKUP.HEADER"
+        },
+        "delivery": {
+            "url": "https://bnc.lt/scMl/sIKUxZKzYR",
+            "headerVisible": false,
+            "headerTitle": "PAGES.PICKUP.DELIVERY"
+        },
+        "privacyPolicy": {
+            "url": "https://test.mycheckapp.com/mobileApi/getPageContent/appType/Bodeans/page/privacy_policy/Html/true",
+            "headerVisible": true,
+            "headerTitle": "PAGES.LEGAL.PRIVACY_POLICY"
+        },
+        "termsAndConditions": {
+            "url": "https://test.mycheckapp.com/mobileApi/getPageContent/appType/Bodeans/page/terms/Html/true",
+            "headerVisible": true,
+            "headerTitle": "PAGES.LEGAL.TERMS_AND_CONDITIONS"
+        },
+        "bookATable": {
+            "url": "https://",
+            "headerVisible": true,
+            "headerTitle": ""
+        },
+        "externalSurvey": {
+            "url": "https://",
+            "headerVisible": true,
+            "headerTitle": ""
+        },
+        "consentFirstTime": {
+            "url": "https://",
+            "headerVisible": true,
+            "headerTitle": ""
+        },
+        "consentUpdate": {
+            "url": "https://",
+            "headerVisible": true,
+            "headerTitle": ""
+        }
+    },
+    "assets": {
+        "locationMap": "",
+        "poweredBy": "",
+        "logo": "",
+        "appIcon": ""
+    },
+    "fonts": {
+        "woff": "",
+        "woff2": "",
+        "ttf": "",
+        "otf": ""
+    },
+    "iconFonts": {
+        "path": [
+            {
+                "ttf": "https://s3-eu-west-1.amazonaws.com/cdn-storage/fonts/BullguerFontIcons/icomoon.ttf"
+            },
+            {
+                "woff": "https://s3-eu-west-1.amazonaws.com/cdn-storage/fonts/BullguerFontIcons/icomoon.woff"
+            },
+            {
+                "woff2": ""
+            },
+            {
+                "svg": "https://s3-eu-west-1.amazonaws.com/cdn-storage/fonts/BullguerFontIcons/icomoon.svg"
+            },
+            {
+                "eot": "https://s3-eu-west-1.amazonaws.com/cdn-storage/fonts/BullguerFontIcons/icomoon.eot"
+            }
+        ],
+        "relations": {
+            "back": "a900",
+            "profileT&C": "a901",
+            "surveyUnselected": "a902",
+            "surveySelected": "a903",
+            "overlayX": "a904",
+            "VConfirm": "a905",
+            "homeMenu": "a906",
+            "backToTable": "a907",
+            "dropDown": "a908",
+            "favItem": "a909",
+            "favLocaion": "a910",
+            "favOrder": "a911",
+            "favTip": "a912",
+            "forward": "a913",
+            "homeCheckin": "a914",
+            "homeLocation": "a915",
+            "homeReservation": "a916",
+            "homeReward": "a917",
+            "logout": "a918",
+            "loyalty": "a919",
+            "profileAbout": "a920",
+            "profileContact": "a921",
+            "profileFAQ": "a922",
+            "profileGiftCard": "a923",
+            "profileHelp": "a924",
+            "profileHistory": "a925",
+            "profileInvite": "a926",
+            "profileLegal": "a927",
+            "profilePayment": "a928",
+            "profilePrivacy": "a929",
+            "profileStats": "a930",
+            "profileTour": "a931",
+            "profileUpdate": "a932",
+            "profileUser": "a933",
+            "reorder": "a934",
+            "rewards": "a935",
+            "scan": "a936",
+            "searchBig": "a937",
+            "splitEvenly": "a938",
+            "splitItem": "a939",
+            "split": "a940",
+            "view": "a941",
+            "homeDelivery": "e901",
+            "homePickup": "e903",
+            "fries_reward": "e907",
+            "averageCheck": "e908",
+            "pencil": "e909",
+            "upgrade": "e90a",
+            "biz_call": ""
+        }
+    },
+    "pages": {
+        "profile": {
+            "editProfile": {
+                "name": true,
+                "dob": true,
+                "gender": false,
+                "optin": true,
+                "deleteMyAccount": false,
+                "preferenceSettings": false,
+                "phoneNumber": true,
+                "change4DigitPin": false,
+                "email": true
+            },
+            "showStats": true,
+            "stats": {
+                "orders": true,
+                "averageCheck": true,
+                "favoriteItem": true,
+                "averageTip": true,
+                "favoriteLocation": true
+            },
+            "help": {
+                "loyaltyFQA": false,
+                "partners": false,
+                "faq": true,
+                "aboutUs": true,
+                "talkToUs": true
+            },
+            "takeTour": true,
+            "legal": {
+                "privacyPolicy": true,
+                "version": true,
+                "termsAndCnditions": true
+            },
+            "paymentDetails": true,
+            "giftCards": false,
+            "history": true
+        },
+        "locationsType": "image",
+        "businessPage": {
+            "image": true,
+            "phoneIcon": true,
+            "locationIcon": true,
+            "name": true,
+            "address": true,
+            "distance": true,
+            "map": true,
+            "mapLocationIcon": true,
+            "aboutTitle": true,
+            "aboutText": true,
+            "openHoursTitle": true,
+            "openHoursText": true
+        },
+        "rewardTamplate": {
+            "mainReward": "list",
+            "innerRewardImage": true,
+            "rewardDescriptionSource": "redeemable"
+        },
+        "consent": {
+            "version": 1.7,
+            "showConsent": false
+        },
+        "splash": true,
+        "homePage": {
+            "middleButton": [
+                {
+                    "key": "LOCATIONS",
+                    "iconKey": null,
+                    "translationKey": null,
+                    "webView": null
+                }
+            ],
+            "bottomButton": [
+                {
+                    "key": "WEBVIEW",
+                    "iconKey": "homeMenu",
+                    "translationKey": "PAGES.HOMEPAGE.PICKUP",
+                    "webView": "pickup",
+                    "headerTranslationKey": "PAGES.HOMEPAGE.PICKUP",
+                    "headerVisible": false
+                },
+                {
+                    "key": "REWARDS",
+                    "iconKey": "homeReward",
+                    "translationKey": "PAGES.HOMEPAGE.REWARDS",
+                    "webView": null,
+                    "headerTranslationKey": "PAGES.REWARDS.HEADER",
+                    "headerVisible": true
+                },
+                {
+                    "key": "WEBVIEW",
+                    "iconKey": "homeDelivery",
+                    "translationKey": "PAGES.HOMEPAGE.DELIVERY",
+                    "webView": "delivery",
+                    "headerTranslationKey": "PAGES.HOMEPAGE.DELIVERY",
+                    "headerVisible": true
+                }
+            ]
+        },
+        "landingPage": true,
+        "dineIn": {
+            "checkInType": 1,
+            "split": true,
+            "splitWays": 20,
+            "reorderFromBill": false,
+            "reward": true,
+            "addFriend": true,
+            "inviteFriend": false,
+            "proceedToCheckout": true,
+            "checkout": {
+                "tip": true,
+                "alreadyPaid": true,
+                "leftToPay": true,
+                "balance": true,
+                "showTax": true,
+                "subtotal": true,
+                "myTotal": true,
+                "paymentMethods": true,
+                "noPaymentFlow": false,
+                "slideToPay": true,
+                "callWaiter": false,
+                "defaultTip": 20,
+                "tipValue": [
+                    10,
+                    15,
+                    20
+                ],
+                "maxRedeemOpenTable": 1,
+                "confirmation": {
+                    "confirmationPage": true,
+                    "survey": true,
+                    "buttonConfirmation": true
+                }
+            }
+        }
+    },
+    "walletConfiguration": {
+        "style": {
+            "input": {
+                "default": {
+                    "borderColor": "",
+                    "width": "",
+                    "fieldStyle": "underline / field",
+                    "radius": null,
+                    "borderStyle": "solid",
+                    "backgroundColor": ""
+                },
+                "error": {
+                    "borderColor": null,
+                    "Width": null,
+                    "backgroundColor": null
+                }
+            },
+            "text": {
+                "run1": {
+                    "fontFamily": "OpenSans-Normal",
+                    "fontSize": 14,
+                    "color": "#202020"
+                },
+                "run2": {
+                    "fontFamily": "OpenSans-Normal",
+                    "fontSize": 13,
+                    "color": "#979797"
+                },
+                "error": {
+                    "fontFamily": "OpenSans-Normal",
+                    "fontSize": 12,
+                    "color": "#D0021B"
+                },
+                "headerTitle": {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontSize": 14,
+                    "color": "#FFFFFF",
+                    "marginTop": 8
+                },
+                "headerAction": {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontSize": 12,
+                    "color": "#FFFFFF"
+                }
+            },
+            "button": {
+                "btn1": {
+                    "borderColor": null,
+                    "borderRadius": 25,
+                    "backgroundColor": "#BE3A34"
+                },
+                "text1": {
+                    "fontFamily": "OpenSans-Bold",
+                    "fontSize": 14,
+                    "color": "#FFFFFF",
+                    "ios": {
+                        "marginTop": 8
+                    }
+                }
+            },
+            "icon": {
+                "addCard": {
+                    "color": "#FFFFFF",
+                    "fontSize": 45
+                },
+                "Camera": {
+                    "color": "#BE3A34",
+                    "fontSize": 30
+                },
+                "header": {
+                    "color": "#FFFFFF",
+                    "fontSize": 30
+                },
+                "xOverlay": {
+                    "color": "#000000",
+                    "fontSize": 25
+                },
+                "defaultCard": {
+                    "color": "#BE3A34",
+                    "fontSize": 45
+                },
+                "storeCardCheckBox": {
+                    "color": "#BE3A34",
+                    "fontSize": 15
+                },
+                "creditCard": {
+                    "color": "#787878",
+                    "fontSize": 15
+                }
+            },
+            "statusBar": {
+                "default": {
+                    "color": "light-content",
+                    "backgroundColor": null
+                },
+                "overlay": {
+                    "color": "dark-content",
+                    "backgroundColor": null
+                }
+            },
+            "background": {
+                "default": {
+                    "backgroundColor": "#EEEEEE",
+                    "secondaryColor": "#FFFFFF"
+                },
+                "overlay": {
+                    "backgroundColor": "#FFFFFF"
+                },
+                "header": {
+                    "backgroundColor": "#BE3A34"
+                }
+            },
+            "defaultCardCircle": {
+                "backgroundColor": "#FFFFFF"
+            },
+            "addNewCard": {
+                "backgroundColor": "#FFFFFF"
+            }
+        },
+        "settings": {
+            "local": "en_GB",
+            "languages": {
+                "en_US": "https://s3-eu-west-1.amazonaws.com/mywallet-sdk-sandbox/lang/Busaba/general.json",
+                "en_GB": "https://s3-eu-west-1.amazonaws.com/mywallet-sdk-sandbox/lang/Busaba/general.json",
+                "fr_FR": "https://s3-eu-west-1.amazonaws.com/mywallet-sdk-sandbox/lang/v1/fr/fr.json"
+            },
+            "PCI": "https://testpm.mycheckapp.com",
+            "alternativeWalletSettings": {
+                "applePay": {
+                    "supportedApplePayCardTypes": [
+                        "Visa",
+                        "MasterCard",
+                        "Amex"
+                    ],
+                    "countryCode": "GB",
+                    "ApplePayPreAuthTxt": "Boston Pizza",
+                    "ApplePayPayTxt": "Boston Pizza"
+                },
+                "masterpass": {
+                    "url": "https://mywalletcdn-prod.mycheckapp.com/external/masterpass.html"
+                },
+                "visaCheckout": {
+                    "url": "https://mywalletcdn-test.mycheckapp.com/external/visacheckout.html"
+                }
+            },
+            "assets": {
+                "paymentMethods": {
+                    "addCard": {
+                        "visa": "",
+                        "mastercard": "",
+                        "amex": "",
+                        "diners": ""
+                    },
+                    "manageCard": {
+                        "visa": "",
+                        "mastercard": "",
+                        "amex": "",
+                        "diners": "",
+                        "giftCard": ""
+                    },
+                    "acceptedCard": {
+                        "visa": "",
+                        "mastercard": "",
+                        "amex": "",
+                        "diners": ""
+                    },
+                    "alternativePaymentMethods": {
+                        "payPal": "",
+                        "applePay": "",
+                        "masterpass": "",
+                        "googlePay": "",
+                        "visaCheckout": ""
+                    },
+                    "teporaryCard": ""
+                }
+            },
+            "iconFonts": {
+                "path": [
+                    {
+                        "ttf": "https://s3-eu-west-1.amazonaws.com/cdn-storage/fonts/NOVO_icons_font/Bodeans/icomoon.ttf"
+                    },
+                    {
+                        "woff": "https://s3-eu-west-1.amazonaws.com/cdn-storage/fonts/NOVO_icons_font/Bodeans/icomoon.woff"
+                    },
+                    {
+                        "woff2": ""
+                    },
+                    {
+                        "svg": "https://s3-eu-west-1.amazonaws.com/cdn-storage/fonts/NOVO_icons_font/Bodeans/icomoon.svg"
+                    },
+                    {
+                        "eot": "https://s3-eu-west-1.amazonaws.com/cdn-storage/fonts/NOVO_icons_font/Bodeans/icomoon.eot"
+                    }
+                ],
+                "relations": {
+                    "back": "a900",
+                    "profileT&C": "a901",
+                    "surveyUnselected": "a902",
+                    "surveySelected": "a903",
+                    "overlayX": "a904",
+                    "VConfirm": "a905",
+                    "homeMenu": "a906",
+                    "backToTable": "a907",
+                    "dropDown": "a908",
+                    "favItem": "a909",
+                    "favLocaion": "a910",
+                    "favOrder": "a911",
+                    "favTip": "a912",
+                    "forward": "a913",
+                    "homeCheckin": "a914",
+                    "homeLocation": "a915",
+                    "homeReservation": "a916",
+                    "homeReward": "a917",
+                    "logout": "a918",
+                    "loyalty": "a919",
+                    "profileAbout": "a920",
+                    "profileContact": "a921",
+                    "profileFAQ": "a922",
+                    "profileGiftCard": "a923",
+                    "ProfileHelp": "a924",
+                    "profileHistory": "a925",
+                    "profileInvite": "a926",
+                    "profileLegal": "a927",
+                    "profilePayment": "a928",
+                    "profilePrivacy": "a929",
+                    "profileStats": "a930",
+                    "profileTour": "a931",
+                    "profileUpdate": "a932",
+                    "profileUser": "a933",
+                    "reorder": "a934",
+                    "rewards": "a935",
+                    "scan": "a936",
+                    "searchBig": "a937",
+                    "splitEvenly": "a938",
+                    "splitItem": "a939",
+                    "split": "a940",
+                    "view": "a941"
+                }
+            },
+            "features": {
+                "alternativeWallet": {
+                    "masterpass": false,
+                    "applePay": false,
+                    "payPal": false
+                },
+                "acceptedCards": {
+                    "visa": true,
+                    "amex": true,
+                    "mastercard": false,
+                    "diners": false
+                },
+                "doNotStore": false,
+                "showGiftcard": true
+            }
+        }
+    }
+}

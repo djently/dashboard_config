@@ -1,0 +1,500 @@
+{
+  "tutorials": {
+      "screens": [
+          {
+              "xColor": "#ffffff",
+              "statusBar": {
+                  "color": "light-content",
+                  "backgroundColor": "#000000"
+              },
+              "backgroundColor": null,
+              "backgroundImage": "https://s3-eu-west-1.amazonaws.com/mycheck-api-static-content/Bullguer/home_bg%403x+(1).png",
+              "image": "https://s3-eu-west-1.amazonaws.com/mycheck-api-static-content/Bullguer/onboarding_1%403x.png",
+              "title": {
+                  "fontFamily": "Intro",
+                  "fontSize": 19,
+                  "color": "#FFFFFF"
+              },
+              "text": {
+                  "fontFamily": "Kraftstoff",
+                  "fontSize": 20,
+                  "color": "#FFFFFF"
+              }
+          },
+          {
+              "xColor": "#ffffff",
+              "statusBar": {
+                  "color": "light-content",
+                  "backgroundColor": "#000000"
+              },
+              "backgroundColor": null,
+              "backgroundImage": "https://s3-eu-west-1.amazonaws.com/mycheck-api-static-content/Bullguer/home_bg%403x+(1).png",
+              "image": "https://s3-eu-west-1.amazonaws.com/mycheck-api-static-content/Bullguer/tutorial_rewards%403x.png",
+              "title": {
+                  "fontFamily": "Intro",
+                  "fontSize": 19,
+                  "color": "#FFFFFF"
+              },
+              "text": {
+                  "fontFamily": "Kraftstoff",
+                  "fontSize": 20,
+                  "color": "#FFFFFF"
+              }
+          },
+          {
+              "xColor": "#ffffff",
+              "statusBar": {
+                  "color": "light-content",
+                  "backgroundColor": "#000000"
+              },
+              "backgroundColor": null,
+              "backgroundImage": "https://s3-eu-west-1.amazonaws.com/mycheck-api-static-content/Bullguer/home_bg%403x+(1).png",
+              "image": "https://s3-eu-west-1.amazonaws.com/mycheck-api-static-content/Bullguer/onboarding_7%403x.png",
+              "title": {
+                  "fontFamily": "Intro",
+                  "fontSize": 19,
+                  "color": "#FFFFFF"
+              },
+              "text": {
+                  "fontFamily": "Kraftstoff",
+                  "fontSize": 20,
+                  "color": "#FFFFFF"
+              }
+          },
+          {
+              "xColor": "#ffffff",
+              "statusBar": {
+                  "color": "light-content",
+                  "backgroundColor": "#000000"
+              },
+              "backgroundColor": null,
+              "backgroundImage": "https://s3-eu-west-1.amazonaws.com/mycheck-api-static-content/Bullguer/home_bg%403x+(1).png",
+              "image": "https://s3-eu-west-1.amazonaws.com/mycheck-api-static-content/Bullguer/onboarding_5%403x.png",
+              "title": {
+                  "fontFamily": "Intro",
+                  "fontSize": 19,
+                  "color": "#FFFFFF"
+              },
+              "text": {
+                  "fontFamily": "Kraftstoff",
+                  "fontSize": 20,
+                  "color": "#FFFFFF"
+              }
+          }
+      ],
+      "pagination": {
+          "color": "#787878"
+      },
+      "paginationActive": {
+          "color": "#FFFFFF"
+      }
+  },
+  "input": {
+      "default": {
+          "borderColor": "#787878",
+          "borderBottomWidth": 1,
+          "borderStyle": "solid"
+      },
+      "defaultError": {
+          "borderColor": "#D0021B",
+          "borderBottomWidth": 1,
+          "borderStyle": "solid"
+      },
+      "search": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#202020",
+          "borderBottomWidth": 1,
+          "borderStyle": "solid"
+      },
+      "verificationCode": {
+          "borderColor": "#A89C72",
+          "borderBottomWidth": 1,
+          "borderStyle": "solid"
+      },
+      "verificationNumber": {
+          "fontFamily": "Intro",
+          "fontSize": 36,
+          "color": "#202020"
+      },
+      "verificationCodeError": {
+          "borderColor": "#D0021B",
+          "borderBottomWidth": 1,
+          "borderStyle": "solid"
+      },
+      "verificationNumberError": {
+          "fontFamily": "Intro",
+          "fontSize": 36,
+          "color": "#D0021B"
+      },
+      "phoneLogin": {
+          "backgroundColor": "#FFFFFF"
+      }
+  },
+  "tab": {
+      "active": {
+          "fontFamily": "Intro",
+          "fontSize": 12,
+          "color": "#A89C72",
+          "backgroundColor": "#A89C72",
+          "height": 6
+      },
+      "default": {
+          "fontFamily": "Intro",
+          "fontSize": 12,
+          "color": "#202020",
+          "opacity": 1
+      }
+  },
+  "text": {
+      "run1": {
+          "fontFamily": "Kraftstoff",
+          "fontSize": 18,
+          "color": "#121212"
+      },
+      "run2": {
+          "fontFamily": "Kraftstoff",
+          "fontSize": 16,
+          "color": "#787878"
+      },
+      "error": {
+          "fontFamily": "Kraftstoff",
+          "fontSize": 16,
+          "color": "#D0021B"
+      },
+      "link": {
+          "fontFamily": "Kraftstoff",
+          "fontSize": 16,
+          "color": "#A89C72"
+      },
+      "big": {
+          "fontFamily": "Intro",
+          "fontSize": 72,
+          "color": "#A89C72",
+          "paddingTop": 10
+      },
+      "myTotal": {
+          "fontFamily": "Intro",
+          "fontSize": 36,
+          "color": "#A89C72"
+      },
+      "headerTitle": {
+          "fontFamily": "Intro",
+          "fontSize": 14,
+          "color": "#202020",
+          "marginTop": 8
+      },
+      "backToTable": {
+          "fontFamily": "Kraftstoff",
+          "fontSize": 15,
+          "color": "#FFFFFF"
+      },
+      "overlayTitle": {
+          "fontFamily": "Intro",
+          "fontSize": 14,
+          "color": "#000000"
+      },
+      "skip": {
+          "fontFamily": "Kraftstoff",
+          "fontSize": 12,
+          "color": "#FFFFFF"
+      },
+      "home": {
+          "fontFamily": "Intro",
+          "fontSize": 12,
+          "color": "#FFFFFF"
+      },
+      "letsGetStarted": {
+          "fontFamily": "Kraftstoff",
+          "fontSize": 20,
+          "color": "#FFFFFF"
+      },
+      "takeTour": {
+          "fontFamily": "Intro",
+          "fontSize": 14,
+          "color": "#FFFFFF"
+      },
+      "splitNumbers": {
+          "fontFamily": "Intro",
+          "fontSize": 20,
+          "color": "#000000"
+      }
+  },
+  "button": {
+      "middleHome": {
+          "fontFamily": "Intro",
+          "fontSize": 15,
+          "color": "#FFFFFF",
+          "borderWidth": 4,
+          "borderColor": "#FFFFFF"
+      },
+      "redeem": {
+          "borderRadius": 0,
+          "borderWidth": 1,
+          "height": 28,
+          "width": 65,
+          "paddingVertical": 2
+      },
+      "redeemActive": {
+          "backgroundColor": "#FFFFFF",
+          "borderWidth": 1,
+          "height": 28,
+          "width": 65,
+          "paddingVertical": 2,
+          "alignItems": "center",
+          "justifyContent": "center"
+      },
+      "surveyInactive": {
+          "borderColor": "#A89C72",
+          "backgroundColor": null
+      },
+      "surveyActive": {
+          "backgroundColor": "#A89C72"
+      },
+      "btn1": {
+          "borderColor": null,
+          "borderRadius": 0,
+          "backgroundColor": "#000000"
+      },
+      "btn2": {
+          "borderColor": "#202020",
+          "borderRadius": 0,
+          "borderWidth": 2,
+          "backgroundColor": null
+      },
+      "btn3": {
+          "borderColor": null,
+          "borderRadius": 0,
+          "backgroundColor": "#FFFFFF"
+      },
+      "text1": {
+          "fontFamily": "Intro",
+          "fontSize": 14,
+          "color": "#FFFFFF"
+      },
+      "text2": {
+          "fontFamily": "Intro",
+          "fontSize": 14,
+          "color": "#000000"
+      },
+      "text3": {
+          "fontFamily": "Intro",
+          "fontSize": 15,
+          "color": "#FFFFFF"
+      },
+      "smallBold": {
+          "fontFamily": "Intro",
+          "fontSize": 12,
+          "color": "#000000"
+      },
+      "next": {
+          "backgroundColor": "#202020",
+          "arrowColor": "#FFFFFF"
+      },
+      "tipBox": {
+          "borderColor": "#A89C72",
+          "borderRadius": 11,
+          "backgroundColor": null
+      },
+      "tipBoxActive": {
+          "borderColor": null,
+          "borderRadius": 11,
+          "backgroundColor": "#A89C72"
+      }
+  },
+  "icon": {
+      "upgrade": {
+          "color": "#FFFFFF",
+          "fontSize": 50
+      },
+      "profile": {
+          "color": "#FFFFFF",
+          "fontSize": 35
+      },
+      "default": {
+          "color": "#A89C72",
+          "fontSize": 30
+      },
+      "back": {
+          "color": "#000000",
+          "fontSize": 30
+      },
+      "surveyStar": {
+          "color": "#A89C72",
+          "fontSize": 50
+      },
+      "surveyStarActive": {
+          "color": "#A89C72",
+          "fontSize": 50
+      },
+      "big": {
+          "color": "#FFFFFF",
+          "fontSize": 50
+      },
+      "small1": {
+          "color": "#FFFFFF",
+          "fontSize": 9
+      },
+      "small2": {
+          "color": "#787878",
+          "fontSize": 18
+      },
+      "checkoutClose": {
+          "color": "#FFFFFF",
+          "fontSize": 25
+      },
+      "dropDownArrow": {
+          "color": "#787878",
+          "fontSize": 30
+      },
+      "header": {
+          "color": "#000000",
+          "fontSize": 30
+      },
+      "stats": {
+          "color": "#FFFFFF",
+          "fontSize": 40
+      },
+      "redeem": {
+          "color": "#202020",
+          "fontSize": 26,
+          "position": "absolute",
+          "lineHeight": 24
+      },
+      "xOverlay": {
+          "color": "#000000",
+          "fontSize": 25
+      }
+  },
+  "splitEvenlyCircle": {
+      "color": "#A89C72"
+  },
+  "statusBar": {
+      "default": {
+          "color": "light-content",
+          "backgroundColor": null
+      },
+      "header": {
+          "color": "dark-content",
+          "backgroundColor": null
+      },
+      "businessPage": {
+          "color": "light-content",
+          "backgroundColor": null
+      },
+      "start": {
+          "color": "light-content",
+          "backgroundColor": null
+      },
+      "blockPage": {
+          "color": "light-content",
+          "backgroundColor": null
+      },
+      "overlay": {
+          "color": "dark-content",
+          "backgroundColor": null
+      },
+      "checkout": {
+          "color": "light-content",
+          "backgroundColor": null
+      }
+  },
+  "radioButton": {
+      "borderWidth": 2,
+      "borderColor": "#000000",
+      "borderColorError": "#D0021B",
+      "selectedColor": "#FFA38B",
+      "selectedColorError": "#D0021B"
+  },
+  "backToTable": {
+      "tab": {
+          "backgroundColor": "#A89C72"
+      },
+      "body": {
+          "backgroundColor": "#A89C72"
+      },
+      "arrow": {
+          "color": "#FFFFFF",
+          "fontSize": 30
+      }
+  },
+  "divider": {
+      "borderBottomColor": "#000000",
+      "borderBottomWidth": 1,
+      "borderStyle": "solid"
+  },
+  "splitItemCircle": {
+      "circle": {
+          "borderWidth": 2,
+          "borderColor": "#202020"
+      },
+      "activeCircle": {
+          "backgroundColor": "#202020",
+          "iconColor": "#FFFFFF"
+      }
+  },
+  "stats": {
+      "boarderColor": "#FFFFFF",
+      "backgroundColor": "#202020"
+  },
+  "confirmationAndBlock": {
+      "circle": {
+          "borderWidth": 2,
+          "borderColor": "#A89C72",
+          "borderRadius": 100,
+          "padding": 15,
+          "height": 150,
+          "width": 150
+      },
+      "icon": {
+          "fontSize": 100,
+          "color": "#000000"
+      }
+  },
+  "header": {
+      "backgroundColor": "#FFFFFF"
+  },
+  "background": {
+      "connect": {
+          "backgroundColor": "#FFFFFF",
+          "backgroundImage": null
+      },
+      "start": {
+          "backgroundColor": null,
+          "backgroundImage": null
+      },
+      "homePageVip": {
+          "backgroundColor": null,
+          "backgroundImage": null
+      },
+      "profile&business": {
+          "backgroundColor": "#FFFFFF",
+          "backgroundImage": null,
+          "secondaryColor": "#EEEEEE"
+      },
+      "dine&Block": {
+          "backgroundColor": "#FFFFFF",
+          "backgroundImage": null
+      },
+      "overlay": {
+          "backgroundColor": "#FFFFFF",
+          "backgroundImage": null
+      },
+      "rewardsHome": {
+          "backgroundColor": "#000000",
+          "backgroundImage": null
+      },
+      "checkout": {
+          "mainColor": "#000000",
+          "drawerColor": "#FFFFFF"
+      }
+  },
+  "reorder": {
+      "circle": {
+          "color": null
+      },
+      "quantityIcons": {
+          "color": null,
+          "fontSize": 0
+      }
+  }
+}
