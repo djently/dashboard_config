@@ -105,8 +105,6 @@ function idealTextColor(bgColor) {
   var components = getRGBComponents(bgColor)
   var bgDelta =
     components.R * 0.299 + components.G * 0.587 + components.B * 0.114
-
-  console.log(bgColor, bgDelta, 255 - bgDelta < nThreshold)
   return 255 - bgDelta < nThreshold ? 'rgba(0, 0, 0, 0.87)' : 'white'
 }
 

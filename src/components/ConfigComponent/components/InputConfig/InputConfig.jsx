@@ -1,6 +1,6 @@
 import { get, set } from 'lodash/fp'
 import React, { Component } from 'react'
-import { Typography, TextField, Grid, Divider } from '@material-ui/core'
+import { Typography, TextField, Grid } from '@material-ui/core'
 
 import ColorPicker from 'components/ColorPicker'
 import BorderStyleSelect from 'components/BorderStyleSelect'
