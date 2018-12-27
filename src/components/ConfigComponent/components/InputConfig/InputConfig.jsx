@@ -41,7 +41,7 @@ export default class InputConfig extends Component {
           <Grid item>
             <Grid
               container
-              direction="row"
+              direction="column"
               spacing={16}
               key={formSection.label + idx}
             >

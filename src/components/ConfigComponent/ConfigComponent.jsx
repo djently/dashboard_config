@@ -3,6 +3,7 @@ import { Typography, Paper } from '@material-ui/core'
 
 import TutorialsConfig from './components/TutorialsConfig'
 import InputConfig from './components/InputConfig'
+import Settings from './components/Settings'
 
 export default class ConfigComponent extends Component {
   render() {
@@ -20,6 +21,8 @@ export default class ConfigComponent extends Component {
         return <TutorialsConfig {...rest} />
       case 'InputConfig':
         return <InputConfig {...rest} />
+      case 'Settings':
+        return <Settings {...rest} />
 
       default:
         return <Typography>Component {component} not found</Typography>
