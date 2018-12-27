@@ -95,10 +95,11 @@ export default [
     label: 'Delete My Account',
     sizes: { sm: 6, md: 4 },
   },
+  { type: 'divider' },
   {
     name: 'externalBusinessId',
     label: 'External Business ID',
-    sizes: { xs: 6, sm: 12 },
+    sizes: { xs: 6, sm: 6 },
     type: 'switch'
   },
   {

@@ -7,11 +7,15 @@ import {
   Switch,
   FormGroup,
   FormControlLabel,
+  Divider,
 } from '@material-ui/core'
 
 export default SettingsFieldWrapper
 
 function SettingsFieldWrapper({ sizes = {}, ...props }) {
+  if (props.type === 'divider') {
+    return <Grid item xs={12}><Divider /></Grid>
+  }
   return (
     <Grid
       item
