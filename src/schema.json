@@ -1,14 +1,5 @@
 {
     "nodes": {
-        "test": {
-            "nodes": {
-                "test 1": {
-                    "nodes": {
-                        "test 2": { "label": "Test" }
-                    }
-                }
-            }
-        },
         "style": {
             "label": "General Styles",
             "nodes": {
