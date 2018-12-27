@@ -29,11 +29,12 @@ export default class Settings extends Component {
     const { value } = this.props
     return (
       <Grid container spacing={16} direction="row">
-        {form.map(field => (
+        {form.map((field, idx) => (
           <SettingsField
             {...field}
             value={value}
             onChange={this.handleChange}
+            key={field.name + idx}
           />
         ))}
       </Grid>

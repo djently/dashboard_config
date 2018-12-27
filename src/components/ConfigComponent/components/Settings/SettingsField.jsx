@@ -16,6 +16,7 @@ function SettingsFieldWrapper({ sizes = {}, ...props }) {
   if (props.type === 'divider') {
     return <Grid item xs={12}><Divider /></Grid>
   }
+
   return (
     <Grid
       item
@@ -24,7 +25,6 @@ function SettingsFieldWrapper({ sizes = {}, ...props }) {
       md={sizes.md || false}
       lg={sizes.lg || false}
       xl={sizes.xl || false}
-      key={props.name}
     >
       <SettingsField {...props} />
     </Grid>
@@ -62,7 +62,7 @@ function InputField({
     >
       {options &&
         options.map(opt => (
-          <MenuItem key={name + opt.value} value={opt.value}>
+          <MenuItem key={`${name}#${opt.value}`} value={opt.value}>
             {opt.label}
           </MenuItem>
         ))}
