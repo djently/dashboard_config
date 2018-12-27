@@ -112,6 +112,6 @@ export default [
     name: 'translations',
     label: 'Translations',
     type: 'url',
-    sizes: { xs: '12', sm: '12' },
+    sizes: { xs: 12, sm: 12 },
   }
 ]
