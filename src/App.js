@@ -1,8 +1,9 @@
 import { set, get } from 'lodash/fp'
 import React, { Component } from 'react'
-import { CssBaseline, AppBar, Toolbar } from '@material-ui/core'
+import { CssBaseline, AppBar, Toolbar, IconButton } from '@material-ui/core'
+import SaveIcon from '@material-ui/icons/SaveAlt'
 
-import { STORAGE_SECTION } from "./constants";
+import { STORAGE_SECTION } from './constants'
 import config from './sample_config/config'
 import schema from './schema.json'
 import getDefaultPath from './utils/getDefaultPath'
@@ -16,7 +17,8 @@ class App extends Component {
     config: config,
   }
 
-  handleNavigate = section => this.setState({ section }, () => storeSection(section))
+  handleNavigate = section =>
+    this.setState({ section }, () => storeSection(section))
   handleConfigChange = path => value =>
     this.setState({ config: set(path, value, this.state.config) })
 
@@ -34,6 +36,14 @@ class App extends Component {
               value={this.state.section}
               onNavigate={this.handleNavigate}
             />
+
+            <div style={{ flexGrow: 1 }} />
+            <IconButton
+              onClick={() => saveConfig(this.state.config)}
+              title="Save config"
+            >
+              <SaveIcon />
+            </IconButton>
           </Toolbar>
         </AppBar>
         <ConfigComponent
@@ -57,5 +67,29 @@ function storeSection(section) {
 function restoreSection() {
   if (window.sessionStorage) {
     return window.sessionStorage.getItem(STORAGE_SECTION)
+  }
+}
+
+function saveConfig(config) {
+  // A very minor improvement of the code by Awesomeness01
+  // (no need for anchor tag) with addition as suggested by trueimage (support for IE):
+  // Function to download data to a file
+  const filename = 'config.json'
+  var file = new Blob([JSON.stringify(config)], { type: 'application/json' })
+  if (window.navigator.msSaveOrOpenBlob)
+    // IE10+
+    window.navigator.msSaveOrOpenBlob(file, filename)
+  else {
+    // Others
+    const a = document.createElement('a')
+    const url = URL.createObjectURL(file)
+    a.href = url
+    a.download = filename
+    document.body.appendChild(a)
+    a.click()
+    setTimeout(function() {
+      document.body.removeChild(a)
+      window.URL.revokeObjectURL(url)
+    }, 0)
   }
 }
