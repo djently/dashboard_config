@@ -1,12 +1,11 @@
 import { get, set } from 'lodash/fp'
 import React, { Component } from 'react'
-import { Typography, TextField, Grid } from '@material-ui/core'
+import { Typography, TextField, Grid, Divider } from '@material-ui/core'
 
 import ColorPicker from 'components/ColorPicker'
 import BorderStyleSelect from 'components/BorderStyleSelect'
 
 import { form } from './form'
-
 export default class InputConfig extends Component {
   static defaultProps = {
     value: {
@@ -21,43 +20,92 @@ export default class InputConfig extends Component {
 
   render() {
     return (
-      <div>
-        <Typography variant="h5">Inputs</Typography>
-        <pre style={{ whiteSpace: 'pre-wrap' }}>
-          {JSON.stringify(this.props.value)}
-        </pre>
-        {this.renderForm(this.props.value)}
-      </div>
+      <Grid container direction="column">
+        <Grid item>
+          <Typography variant="h5">Inputs</Typography>
+        </Grid>
+        <Grid item>{this.renderForm(this.props.value)}</Grid>
+      </Grid>
     )
   }
 
-  renderForm = values => (
+  renderForm = () => (
     <React.Fragment>
       {form.map((formSection, idx) => (
-        <Grid container spacing={16} direction="column" key={formSection.label + idx}>
-          <Grid item>
-            <Typography variant="h6">{formSection.label}</Typography>
+        <Grid
+          container
+          spacing={16}
+          direction="row"
+          key={formSection.label + idx}
+        >
+          <Grid item xs={12} sm={8}>
+            {this.renderFormSection(formSection)}
           </Grid>
-          <Grid item>
-            <Grid
-              container
-              direction="column"
-              spacing={16}
-              key={formSection.label + idx}
-            >
-              {formSection.fields.map(field => (
-                <Grid item key={field.path} sm>
-                  {this.renderField(field, values)}
-                </Grid>
-              ))}
-            </Grid>
+          <Grid item xs={12} sm={4}>
+            {this.renderFormSample(formSection)}
+          </Grid>
+          <Grid item xs={12}>
+            <Divider />
           </Grid>
         </Grid>
       ))}
     </React.Fragment>
   )
 
-  renderField(field, values) {
+  renderFormSection(formSection) {
+    return (
+      <Grid container direction="column" spacing={16}>
+        <Grid item>
+          <Typography variant="subheading">{formSection.label}</Typography>
+        </Grid>
+        {formSection.fields.map(field => (
+          <Grid item key={field.path} sm>
+            {this.renderField(field)}
+          </Grid>
+        ))}
+      </Grid>
+    )
+  }
+
+  renderFormSample(formSection) {
+    const getStyle = field => {
+      const path = field.path.split('.')
+      return path[path.length - 1]
+    }
+    const sectionStyles = formSection.fields.reduce((styles, field) => ({
+      ...styles,
+      [getStyle(field)]: get(field.path, this.props.value),
+    }), {})
+    const inputStyle = Object.assign({
+      width: '100%',
+      height: 32,
+      cursor: 'pointer',
+      marginTop: 16,
+      borderTopWidth: 0,
+      borderRightWidth: 0,
+      borderLeftWidth: 0,
+    }, sectionStyles)
+    console.log(inputStyle)
+
+    return (
+      <Grid container direction="column" spacing={16}>
+        <Grid item>
+          <Typography variant="subheading">
+            {formSection.label} Example
+          </Typography>
+        </Grid>
+        <Grid item>
+          <input
+            style={inputStyle}
+            defaultValue={formSection.label}
+            label={formSection.label}
+          />
+        </Grid>
+      </Grid>
+    )
+  }
+
+  renderField(field) {
     switch (field.type) {
       case 'colorPicker':
         return (
@@ -65,7 +113,7 @@ export default class InputConfig extends Component {
             <ColorPicker
               name={field.path}
               onChange={this.handleChange}
-              value={get(field.path, values)}
+              value={get(field.path, this.props.value)}
               label={field.label}
               fullWidth
             />
@@ -81,7 +129,7 @@ export default class InputConfig extends Component {
               type={field.type}
               name={field.path}
               onChange={this.handleChange}
-              value={get(field.path, values)}
+              value={get(field.path, this.props.value)}
               label={field.label}
               fullWidth
             />
@@ -93,7 +141,7 @@ export default class InputConfig extends Component {
             <BorderStyleSelect
               name={field.path}
               onChange={this.handleChange}
-              value={get(field.path, values)}
+              value={get(field.path, this.props.value)}
               label={field.label}
               fullWidth
             />
